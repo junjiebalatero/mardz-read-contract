@@ -42,21 +42,21 @@
         //2- connect to smart contract
         const connectContract = async () => {
             const ABI = [
-            {
-                "inputs": [],
-                "name": "myCity",
-                "outputs": [
-                    {
-                        "internalType": "string",
-                        "name": "",
-                        "type": "string"
-                    }
-                ],
-                "stateMutability": "view",
-                "type": "function"
-            }
+			            {
+					"inputs": [],
+					"name": "myCity",
+					"outputs": [
+						{
+							"internalType": "string",
+							"name": "",
+							"type": "string"
+						}
+					],
+					"stateMutability": "view",
+					"type": "function"
+				}
             ];
-            const Address = "0x5107675730510A41f7cd8C522338Faa9D5FfF9D3";
+            const Address = "0x49CEC4C495Aa8158af520FCe46994d7E4365A3B5";
             window.web3 = await new Web3(window.ethereum);
             window.contract = await new window.web3.eth.Contract( ABI, Address); 
             document.getElementById("contractArea").innerHTML = "connected to smart contract";
