@@ -7,6 +7,6 @@ TASK:
 
 	# GET DATA FROM CONTRACT
 	
-		# using Metamask and Goerli Test Network 
+		- using Metamask and Goerli Test Network 
 		
-		# live at https://3sxlk-ayaaa-aaaad-qeagq-cai.ic.fleek.co/
+		- live at https://3sxlk-ayaaa-aaaad-qeagq-cai.ic.fleek.co/
