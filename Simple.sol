@@ -4,6 +4,6 @@ pragma solidity >=0.8.7;
 
 contract Simple {
     
-    string public myCity = "Ozamiz City";
+    string public myCity = "OzamizCity";
 
 }
